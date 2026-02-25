@@ -9,7 +9,7 @@ penguins %>%
 palmerpenguins::penguins
 view(penguins)
 
-
+#correlation
 cor(penguins$body_mass_g, penguins$bill_length_mm,
     use = "complete.obs")
 
